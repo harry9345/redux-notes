@@ -5,21 +5,21 @@ const VisibilityFilter = (props) => {
   const dispatch = useDispatch();
   return (
     <div>
-      all :
+      all
       <input
         type='radio'
         name='filter'
-        onChange={() => dispatch(filterChange('All'))}
+        onChange={() => dispatch(filterChange('ALL'))}
       />
       <br />
-      important:
+      important
       <input
         type='radio'
         name='filter'
         onChange={() => dispatch(filterChange('IMPORTANT'))}
       />
       <br />
-      Not important:
+      Not important
       <input
         type='radio'
         name='filter'
